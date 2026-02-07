@@ -1,14 +1,15 @@
 {
-  "name": "Manipulation et exercices sur les APis Rest dev senior",
+  "name": "api_cours_dev_senior_n",
   "version": "1.0.0",
-  "description": "Manipulation du cours dev senior sur les api rest ",
+  "description": "Manipulation API Rest du cours dev senior",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Amusement",
-    "pratique"
+    "API",
+    "Rest",
+    "cours"
   ],
   "author": "ME",
   "license": "ISC"
