@@ -4,7 +4,7 @@
   "description": "Manipulation API Rest du cours dev senior",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [
     "API",
@@ -12,5 +12,8 @@
     "cours"
   ],
   "author": "ME",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
