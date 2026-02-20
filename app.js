@@ -25,4 +25,7 @@ On utilise la méthode send de response afin de renvoyer la réponse au client.
 app.get("/", (req,res) => res.send(`Hello , express! yayyyy !`))
 
 //On lance l'écoute sur le port que l'on a définit (ie => 3000) et on confirme qu'il fonctionne 
-app.listen(port, () => console.log(`Notre application Node est démarré sur : http:// localhost:${port}. Youpiiii ! ` ))
+app.listen(port, () => {
+    console.log(`Notre application Node est démarré !
+    http://localhost:${port}`);
+})
